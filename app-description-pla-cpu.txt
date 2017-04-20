@@ -1,0 +1,5 @@
+main blocksize=14745600 width=2560 height=1440 bpp=4 fps=24
+filesrc location=/scratch/PingPong.mrgb
+movementfilter device=3
+platedetection file_plate=/home/agarcia/posix-streaming-app/data/haarcascade_licence_plate_rus_16stages.xml device=1
+videosink

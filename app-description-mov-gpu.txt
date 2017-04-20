@@ -1,0 +1,5 @@
+main blocksize=14745600 width=2560 height=1440 bpp=4 fps=24
+filesrc location=/scratch/PingPong.mrgb
+movementfilter device=2
+facedetection file_face=/home/agarcia/posix-streaming-app/data/haarcascade_frontalface_default.xml file_eyes=/home/agarcia/posix-streaming-app/data/haarcascade_eye_tree_eyeglasses.xml device=3
+videosink

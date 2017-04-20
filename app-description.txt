@@ -1,0 +1,4 @@
+main blocksize=33177600 width=3840 height=2160 bpp=4 fps=30
+filesrc location=/media/garci/disk-3/MoscowStreets2.mrgb
+platedetection file_plate=/home/garci/posix-streaming-app/data/haarcascade_licence_plate_rus_16stages.xml device=1
+videosink
